@@ -7,7 +7,7 @@
     background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #eee), color-stop(1, #aaa));
 }
 
-#rightArrow { 
+#leftArrow { 
     -webkit-transform: scaleX(-1); 
        -moz-transform: scaleX(-1); 
         -ms-transform: scaleX(-1); 
