@@ -37,14 +37,20 @@
 
 #computerSleep {
 	margin-top: 20px;
-	margin-left: 50px;
+	margin-left: 20px;
+	margin-bottom: 60px;
 }
 
 input[type="range"] {
 -webkit-appearance: slider-horizontal;
 padding: initial;
 border: initial;
-margin-top: 20px;
+margin-top: 0px;
 color: #909090;
+width: 680px;
+}
+
+#displaySleep {
+	margin-left: 20px;
 }
 
