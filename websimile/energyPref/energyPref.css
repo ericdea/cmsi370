@@ -81,4 +81,9 @@ width: 880px;
 #batteryStatus {
 	margin-left: 55px;
 	margin-top: 10px;
+	margin-bottom: 20px;
+}
+
+#schedule {
+	margin-right: 20px;
 }
