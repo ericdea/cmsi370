@@ -29,3 +29,22 @@
     margin-top: 30px;
 
 }
+
+#centerGrayBox {
+	background-color: #E0E0E0;
+	
+}
+
+#computerSleep {
+	margin-top: 20px;
+	margin-left: 50px;
+}
+
+input[type="range"] {
+-webkit-appearance: slider-horizontal;
+padding: initial;
+border: initial;
+margin-top: 20px;
+color: #909090;
+}
+
