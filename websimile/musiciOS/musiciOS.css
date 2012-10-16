@@ -16,7 +16,7 @@
 }
 
 #time {
-	margin-left: 35px;
+	margin-left: 90px;
 }
 
 #battery {
@@ -35,6 +35,10 @@
 	background: linear-gradient(to bottom, #a7cfdf 0%,#23538a 100%); /* W3C */
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a7cfdf', endColorstr='#23538a',GradientType=0 ); /* IE6-9 */
 	width: 610px;
+}
+
+#settingsButton {
+	margin-left: 0px;
 }
 
 /* Bordered Button Styles - Code from http://css3wizardry.com/2010/10/05/subpixel-rendering-2/ */
@@ -62,6 +66,7 @@
 	color: #fff;
 	-webkit-tap-highlight-color: transparent;
 	-webkit-user-select: none;
+	margin-left: 0px;
 }
 .button.bordered:hover, .button.bordered.touched {
 	background-image: 
@@ -133,7 +138,7 @@
    margin-top: 7px;
    font-size: 25px;
    color: white;
-   margin-left: 33px;
+   margin-left: 117px;
 }
 
 #options {
