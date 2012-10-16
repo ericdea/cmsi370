@@ -137,8 +137,9 @@
 }
 
 #options {
-   /* background-color: gray;*/
-   margin-top: 5px;
+    background-color: #C0C0C0;
+    margin-top: 0px;
+    padding-top: 5px;
 }
 
 #shuffleTable {
@@ -149,6 +150,7 @@
 	border: 1px solid #999999;
 	width: 555px;
 	margin-left: 40px;
+	background-color: white;
 }
 
 #shuffle {
@@ -160,8 +162,24 @@
 
 #shuffleSwitch {
 	margin-top: 4px;
-	margin-left: 90px;
+	margin-left: 180px;
 	margin-right: 0px;
+}
+
+#shuffleSwitch2 {
+	margin-top: 4px;
+	margin-left: 145px;
+	margin-right: 0px;
+}
+
+#eq {
+	font-size: 20px;
+	margin-top: 10px;
+	color: gray;
+}
+
+#chevronRight {
+	margin-top: 5px;
 }
 
 
