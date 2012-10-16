@@ -1,5 +1,7 @@
 /*Extra css code for more customization past Twitter Bootstrap. */
 
+
+
 #header {
     margin-left: 0px;
     border-bottom: solid 1px #444;
@@ -134,14 +136,41 @@
    margin-left: 33px;
 }
 
+#options {
+   /* background-color: gray;*/
+   margin-top: 5px;
+}
 
+#shuffleTable {
+	border-bottom: 1px solid #999999;
+}
+
+#shake {
+	border: 1px solid #999999;
+	width: 555px;
+	margin-left: 40px;
+}
+
+#shuffle {
+	margin-left: 30px;
+	padding: 10px;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+#shuffleSwitch {
+	margin-top: 4px;
+	margin-left: 90px;
+	margin-right: 0px;
+}
 
 
 /*Code from proto.io/freebies/onoff/ */
 .onoffswitch {
-	margin-left: 20px;
+	margin-left: 0px;
     position: relative; width: 90px;
     -webkit-user-select:none; -moz-user-select:none; -ms-user-select: none;
+    margin-top: 0px;
 }
 .onoffswitch-checkbox {
     display: none;
