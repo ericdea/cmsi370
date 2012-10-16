@@ -99,3 +99,73 @@ width: 880px;
 #lock {
 	margin-bottom: 20px;
 }
+
+.menu {
+	display:block;
+	width:10px;
+	height:10px;
+	border-radius:5px;
+	font-size:10px;
+	color: red;
+	line-height:10px;
+	text-align:center;
+	text-decoration:none;
+	background: red;
+}
+.menu:hover {
+	
+	text-decoration:none;
+	background: red;
+}
+
+#closeButton {
+	margin-left: 5px;
+	margin-top: 5px;
+}
+
+.menu2 {
+	display:block;
+	width:10px;
+	height:10px;
+	border-radius:5px;
+	font-size:10px;
+	color: yellow;
+	line-height:10px;
+	text-align:center;
+	text-decoration:none;
+	background: yellow;
+}
+.menu2:hover {
+	
+	text-decoration:none;
+	background: yellow;
+}
+
+.menu3 {
+	display:block;
+	width:10px;
+	height:10px;
+	border-radius:5px;
+	font-size:10px;
+	color: #33CC33;
+	line-height:10px;
+	text-align:center;
+	text-decoration:none;
+	background: #33CC33;
+}
+.menu3:hover {
+	
+	text-decoration:none;
+	background: #33CC33;
+}
+
+#minButton {
+	margin-left: -50px;
+	margin-top: 5px;
+}
+
+#plusButton {
+	margin-left: -50px;
+	margin-top: 5px;
+}
+
