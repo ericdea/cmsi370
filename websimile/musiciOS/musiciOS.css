@@ -21,6 +21,118 @@
 	margin-left: 130px;
 }
 
+#settings {
+	border-bottom: solid 1px #444;
+	/* gradient code from http://www.colorzilla.com/gradient-editor/ */
+    background: #a7cfdf; /* Old browsers */
+	background: -moz-linear-gradient(top, #a7cfdf 0%, #23538a 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#a7cfdf), color-stop(100%,#23538a)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, #a7cfdf 0%,#23538a 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, #a7cfdf 0%,#23538a 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top, #a7cfdf 0%,#23538a 100%); /* IE10+ */
+	background: linear-gradient(to bottom, #a7cfdf 0%,#23538a 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a7cfdf', endColorstr='#23538a',GradientType=0 ); /* IE6-9 */
+	width: 610px;
+}
+
+/* Bordered Button Styles - Code from http://css3wizardry.com/2010/10/05/subpixel-rendering-2/ */
+.button.bordered {
+	-webkit-box-shadow: 0 1px 1px #9aa5bb, 0 -1px 1px #8e96a5; 
+	border: solid 1px #54617d;
+	border-color: #484e59 #54617d #4c5c7a #54617d; 
+	display: inline-block;
+	cursor: pointer;
+	padding: 0px 10px;
+	font-size: 12px;
+	line-height: 28px;
+	height: 30px;
+	margin-top: 5px;
+	-webkit-box-sizing: border-box;
+	-webkit-border-radius: 5px;
+	background-image: 
+		-webkit-gradient(linear, left top, left bottom, 
+			from(#92a1bf), 
+			color-stop(0.25, #798aad),
+			color-stop(0.5, #6276a0), 
+			color-stop(0.5, #556a97), 
+			color-stop(0.75, #566c98),
+			to(#546993)); 
+	color: #fff;
+	-webkit-tap-highlight-color: transparent;
+	-webkit-user-select: none;
+}
+.button.bordered:hover, .button.bordered.touched {
+	background-image: 
+		-webkit-gradient(linear, left top, left bottom, 
+			from(#7d88a5), 
+			color-stop(0.25, #58698c),
+			color-stop(0.5, #3a4e78), 
+			color-stop(0.5, #253c6a), 
+			color-stop(0.75, #273f6d),
+			to(#273f6d));
+	-webkit-tap-highlight-color: transparent;
+}
+/* End Bordered Button Styles */
+
+/* Back Bordered Button Styles */
+.button.bordered.back {
+	padding: 0px 7px 0px 3px;
+	margin-left: 50px;
+	position: relative;
+}
+.button.bordered.back > span {
+	position: relative;
+	z-index: 1;
+}
+.button.bordered.back > span.pointer {
+	z-index: 0;
+	background-image: 
+		-webkit-gradient(linear, left top, right bottom, 
+			from(#92a1bf), 
+			color-stop(0.3, #798aad),
+			color-stop(0.51, #6276a0), 
+			color-stop(0.51, #556a97), 
+			color-stop(0.75, #566c98),
+			to(#546993)); 
+	border-left: solid 1px #484e59;
+	border-bottom: solid 1px #9aa5bb;
+	-webkit-border-top-left-radius: 5px;
+	-webkit-border-bottom-right-radius: 5px;
+	-webkit-border-bottom-left-radius: 4px;
+	height: 23.5px;
+	width: 23.5px;
+	display: inline-block;
+	-webkit-transform: rotate(45deg);
+	-webkit-mask-image: 
+		-webkit-gradient(linear, left bottom, right top, 
+			from(#000000), 
+			color-stop(0.5,#000000), 
+			color-stop(0.5, transparent), 
+			to(transparent));
+	position: absolute;
+	left: -9px;
+	top: 2.5px;
+	-webkit-background-clip: content;
+}
+.button.bordered.back:hover > span.pointer, .button.bordered.back.touched > span.pointer {
+	background-image: 
+		-webkit-gradient(linear, left top, right bottom, 
+			from(#7d88a5), 
+			color-stop(0.3, #58698c),
+			color-stop(0.51, #3a4e78), 
+			color-stop(0.51, #253c6a), 
+			color-stop(0.75, #273f6d),
+			to(#273f6d)); 
+}
+
+/* End Back Bordered Button Styles */
+
+#music {
+   margin-top: 7px;
+   font-size: 25px;
+   color: white;
+   margin-left: 33px;
+}
 
 
 
