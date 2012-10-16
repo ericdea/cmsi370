@@ -85,7 +85,8 @@ width: 880px;
 }
 
 #schedule {
-	margin-right: 20px;
+	margin-right: 0px;
+	margin-left: 790px;
 }
 
 #lockPic {
@@ -93,7 +94,7 @@ width: 880px;
 }
 
 #question {
-	margin-left: 760px;
+	margin-left: 740px;
 }
 
 #lock {

@@ -11,6 +11,8 @@
     </head>
     
     <body>
+    <!--Header for the energy preferences. Includes 3 color buttons, title, back/forward 
+    buttons, show all button, and search form.-->
         <div class="row" id="header">
             <div class="span1" id="closeButton">
                 <a href="#" class="menu">X</a>
@@ -21,7 +23,7 @@
             <div class="span1" id="plusButton">
                 <a href="#" class="menu3">+</a>
             </div>
-            <div class="span12 offset5"> Energy Saver 
+            <div class="span2 offset4"> Energy Saver 
             </div>
             <div class="span6">
                 <div class="btn-toolbar">
@@ -38,6 +40,12 @@
                 </form>
             </div>
         </div>
+        <!--This section contains the rest of the page. It has Graphics section which has 
+        the text 'Graphics:' and two radio checkboxes.
+        Also has two buttons, one grey and one blue that say battery and power adapter.
+        There is a container section that is a different color than the background
+        that has the sliders and checkboxes, along with some buttons.
+        After the container section, there is a checkbox and three buttons. -->
         <div class="row" id="energyPreferences">
 			<div class="row" id="graphics">
 				<div class="span1">Graphics: 
@@ -71,6 +79,7 @@
 					</div>
 					<div class="span8"> 
 						<input type="range" name="type-range" id="type-range" min="0" max="100"> 
+						<!-- spaces inbetween the min/hr labels. -->
 						1 min 
 						&nbsp &nbsp &nbsp &nbsp &nbsp 
 						&nbsp &nbsp &nbsp &nbsp &nbsp 
