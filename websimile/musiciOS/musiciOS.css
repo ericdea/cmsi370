@@ -145,6 +145,7 @@
     background-color: #C0C0C0;
     margin-top: 0px;
     padding-top: 5px;
+    padding-bottom: 5px;
 }
 
 #shuffleTable {
@@ -254,5 +255,14 @@
 	color: #484848 ;
 }
 
+#appleID {
+	margin-left: 00px;
+	padding: 10px;
+	font-size: 20px;
+	font-weight: bold;
+}
 
+#inputApple {
+	margin-top: 10px;
+}
 
