@@ -35,6 +35,7 @@
 	background: linear-gradient(to bottom, #a7cfdf 0%,#23538a 100%); /* W3C */
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a7cfdf', endColorstr='#23538a',GradientType=0 ); /* IE6-9 */
 	width: 610px;
+	padding-bottom: 5px;
 }
 
 #settingsButton {
@@ -142,10 +143,12 @@
 }
 
 #options {
-    background-color: #C0C0C0;
     margin-top: 0px;
     padding-top: 5px;
     padding-bottom: 5px;
+    background-image:url('pinstripe.png');
+	background-size:610px 560px;
+	background-repeat:no-repeat;
 }
 
 #shuffleTable {
