@@ -48,10 +48,6 @@ This paper explains how skeuomorphic interface designs fit the user's and develo
 \listoffigures
 
 \pagebreak
-\listoftables
-
-% Start the paper on a new page.
-\pagebreak
 
 %
 % Body text.
@@ -96,80 +92,24 @@ All of the buttons and knobs on the interface are fully functional.  A DJ mixing
 
 \section{Mental Model}
 
-A mental model is an explanation of someone's thought process about how something works in the real world \cite{wiki-mental}.  When trying to successfully align the mental models of the user and the developer, their thought processes must be similar.  Because skeuomorphism is the imatating of elements to a new product, the quality of the skeuomorphism is directly related to the developer's alignment of the mental model of the user.
+A mental model is an explanation of someone's thought process about how something works in the real world \cite{wiki-mental}.  When trying to successfully align the mental models of the user and the developer, their thought processes must be similar.  Because skeuomorphism is the imatating of elements to a new product, the quality of the skeuomorphism is directly related to the developer's alignment of the mental model of the user.  If done well, skeuomorphism can improve the user interface by providing a familiar mental model to the user.
 
-
-\subsection{Multiple Outline Levels}
-
-\LaTeX\ has support for up to three outline levels (\verb!\section!, \verb!\subsection!, and \verb!\subsubsection!).  It also recognizes \verb!\paragraph! and \verb!\subparagraph! directives, though those don't show up in the table of contents.  All of these directives expect a title.
-
-Note also the use of the \verb!\verb! directive for inserting code-like labels or symbols.  It was particularly needed here so that we can include the backslash character in the text.
-
-\subsection{Tables and Figures}
-
-\LaTeX\ has full support for tables and figures.  Table~\ref{table-sample} shows a sample table and Figure~\ref{figure-sample} shows a sample figure.  Note the built-in support for captions and the automated numbering functionality.  Lists of tables and figures can also be automatically generated, as seen at the beginning of this document.
-
-
-
-
-One very important thing to remember about how \LaTeX\ handles tables and figures by default: you don't have to worry about where they go exactly.  The general rule is that you insert them in the source after your first reference to them, and \LaTeX\ determines their final position.  It also makes decisions on how much page space to devote to them.  This all follows \LaTeX's overall theme of focusing on the content of your paper, and not its format.
-
-Just so you can see a second table, Table~\ref{table-sample2} is provided.
-
-
-\section{Another Section}
-
-We're adding another section just so you can see how that looks.  Plus there are a few more \LaTeX\ features to illustrate.
-
-\subsection{Bulleted and Numbered Lists}
-
-\LaTeX\ is very good at providing clean lists.  Examples are shown below.
+\subsection{Apple's view on Mental Model}
+The user already has a mental model of any given software.  This mental model comes from real world experiences, experience with the software/interface and the experience with computers in general \cite{apple}.  When trying to create an interface, Apple suggests the follow characteristics:
 
 \begin{itemize}
-\item Bulleted items come out properly indented and spaced, every time.
-
-\begin{itemize}
-\item Sub-bullets are a virtual no-brainer: just nest another \verb!itemize! block.
-\item Note how the bullet character automatically changes too.
+\item Familiarity
+\item Simplicity
+\item Availability
+\item Discoverability 
 \end{itemize}
 
-\item Just keep on adding \verb!\item!s\ldots
+These four characteristics are great guidelines for trying to fit the user's mental model.  Almost all of Apple's products reflect these characteristics, and whether they are good or not is determined by the user.  There are both positive and negative examples of using skeuomorphic interfaces when trying to capture the user's mental model.
 
-\item \ldots until you're done.
-\end{itemize}
+\subsubsection{Positive Examples}
 
-Numbered lists are almost identical, except that you specify \verb!enumerate! instead of \verb!itemize!.  List items are specified in exactly the same way (thus making it easy to change list types).
-
-\begin{enumerate}
-\item A list item
-\item Another list item
-\item A list item with multiple nested lists
-
-\begin{itemize}
-\item Nested lists can be of mixed types.
-\item That's a lot of power and flexibility for the price of learning a handful of directives.
-
-\begin{enumerate}
-\item Like nested bullet lists, nested numbered lists also ``intelligently'' change their numbering schemes.
-\item Meanwhile, all \emph{you} have to write is \verb!\item!.  \LaTeX\ does the rest.
-\end{enumerate}
-\end{itemize}
-
-\item Back to your regularly scheduled list item
-
-\end{enumerate}
-
-\subsection{Subsection with Another Figure}
-
-We may as well include a second figure also, shown in Figure~\ref{figure-sample2}.  The same image file is used, but note how it can be resized.  Again, observe how the positions of the tables and figures do not necessarily match their positions in the source file, reiterating the aforementioned \LaTeX\ functionality for deciding where these items go in the final document.  You provide an approximate location, and \LaTeX\ does the rest.
-
-\begin{figure}
-\centering
-
-
-\caption{Another sample figure}
-\label{figure-sample2}
-\end{figure}
+\subsubsection{Negative Examples}
+Apple is a company that uses skeuomorphic designs a lot in their products. Such examples are the iCal, Notes (iPhone), folder icons to indicate folders, and iBooks/Newsstand.  While this might fit the mental model of people who are new to the world of computers, there are a lot of complaints by experienced users who feel that the skeuomorphic interface does not fit their mental model. 
 
 \section{Conclusion}
 
