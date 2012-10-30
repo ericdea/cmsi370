@@ -5,6 +5,7 @@
 
 % The geometry package allows for easy page formatting.
 \usepackage{geometry}
+\usepackage{float}
 \geometry{letterpaper}
 
 
@@ -61,7 +62,27 @@ This paper explains how skeuomorphic interface designs fit the user's and develo
 A Skeuomorph, or Skeuomorphism, is when a product imitates design elements functionally necessary in the original product design, but that becomes ornamental in the new product design \cite{wiki}.  So in the computer world, a skeuomorphic user interface design is one that tries to imitate a 'real world' interface by using various decorations.  The website interface designer tries to replicate what the user's mental model is, what the user pictures in their mind.  This relationship between the user's mental model and the developer's mental model is key to creating a successful user interface.  In this paper, I hope to show how important this relationship is and how skeuomorphism directly relates to this relationship between the user and developer's mental models.
 
 
-\section{Background, Preliminary, and Related Work}
+\section{Skeuomorphism}
+
+In a User Interface, the elements of the interface can either be functional or non-functional.  The functional elements can either be skeuomorphs or just plain old elements that are necessary to the interface.  The non-functional elements are there for decoration and visual satisfaction.  This is where skeuomorphs come into play, for they create a better looking layout for most novice computer users.
+
+\subsection{Non-Functional Elements}
+
+Skeuomorphism, or skeuomorphs, have a certain abstract quality and property.  The layout and content of a user interface must have components that can be made abstract, or nonfunctional.  An abstract component can serve both as a building block for new development and as a reminder of its future functionality \cite{skeu-software}. So, even though most of these 'abstract' elements are non-functional and are just decorations, there is an option for future development to make these elements functional.  An example of this abstract element, or non-functional, is the rip/tear on Apple's iCal.
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=3.5in]{ical.jpeg} 
+
+\caption{iCal with Skeuomorphism}
+\label{iCal}
+\end{figure}
+
+If you look at the top of Figure \ref{iCal}, there are rip marks indicating that the user 'ripped' out the past month, just like an ordinary calendar.  The tear has no functionality, for it is just there for decoration.
+
+\subsection{Functional Elements}
+
+On the other side of Skeuomorphism, there are elements of a user interface that exactly replicate the real life version and also have functionality.  One common example of this is a DJ mixing software.
 
 Perhaps the most important functionality to learn for the paper is \LaTeX\ bibliography support.  Citations and references are handled automatically by \LaTeX\ through its companion program, \BibTeX.  All you have to do is provide a bibliography file that provides the reference information and internal keys (very much like variable names) that you use in your document.\footnote{And always remember to run \LaTeX\ \emph{at least twice} after running \BibTeX.}
 
@@ -83,43 +104,13 @@ Note also the use of the \verb!\verb! directive for inserting code-like labels o
 
 \LaTeX\ has full support for tables and figures.  Table~\ref{table-sample} shows a sample table and Figure~\ref{figure-sample} shows a sample figure.  Note the built-in support for captions and the automated numbering functionality.  Lists of tables and figures can also be automatically generated, as seen at the beginning of this document.
 
-\begin{table}
-\centering
-\begin{tabular}{|c|c|c|}\hline
-Column 1 & Column 2 & Column 3 \\\hline\hline
-a & b & c \\
-d & e & f \\
-g & h & i \\\hline
-\end{tabular}
-
-\caption{A sample table}
-\label{table-sample}
-\end{table}
-
-\begin{figure}
-\centering
 
 
-\caption{A sample figure}
-\label{figure-sample}
-\end{figure}
 
 One very important thing to remember about how \LaTeX\ handles tables and figures by default: you don't have to worry about where they go exactly.  The general rule is that you insert them in the source after your first reference to them, and \LaTeX\ determines their final position.  It also makes decisions on how much page space to devote to them.  This all follows \LaTeX's overall theme of focusing on the content of your paper, and not its format.
 
 Just so you can see a second table, Table~\ref{table-sample2} is provided.
 
-\begin{table}
-\centering
-\begin{tabular}{|c|c|c|}\hline
-Column 1 & Column 2 & Column 3 \\\hline\hline
-a & b & c \\
-d & e & f \\
-g & h & i \\\hline
-\end{tabular}
-
-\caption{Another sample table}
-\label{table-sample2}
-\end{table}
 
 \section{Another Section}
 
