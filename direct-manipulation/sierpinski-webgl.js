@@ -337,7 +337,8 @@ var startSierpinski = function (canvas) {
         canvas.onmousemove = null;
     };
     
-    // Set up event handler for zoom/scale.
+    // Set up event handler for zoom/scale and translate/pan.
+    // All event handlers here are keyboard presses.
     window.onkeydown = function (event) {
     
     	if (event.keyCode === 189) { // Press "-" key for zoom out.
@@ -348,16 +349,17 @@ var startSierpinski = function (canvas) {
     		scaleFactor += .1;
         }
         
-        if (event.keyCode === 37) { // Left arrow.
-    		viewerLocation.x += .1;
-    	} else if (event.keyCode === 39) { // Right arrow.
-    		viewerLocation.x -= .1; 
+        if (event.keyCode === 37) { // Left arrow. Press to translate image left.
+    		viewerLocation.x += .3;
+    	} else if (event.keyCode === 39) { // Right arrow. Press to translate image right.
+    		viewerLocation.x -= .3; 
     	}
-    	if (event.keyCode === 40) { // Up arrow.
-    		viewerLocation.y += .1;
-    	} else if (event.keyCode === 38) { // Down arrow.
-    		viewerLocation.y -= .1;
+    	if (event.keyCode === 40) { // Up arrow. Press to translate image up.
+    		viewerLocation.y += .3;
+    	} else if (event.keyCode === 38) { // Down arrow. Press to translate image down.
+    		viewerLocation.y -= .3;
     	}
+    	// Draw the new scene with the changed values.
         drawScene();
     };
 
