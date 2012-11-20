@@ -346,7 +346,6 @@ var startSierpinski = function (canvas) {
 		if (event.keyCode === 187) { // Press "=" key for zoom in.
     		scaleFactor += .1;
         }
-        modelViewMatrix.scale(scaleFactor, scaleFactor, scaleFactor);
         drawScene();
     };
 
