@@ -343,9 +343,21 @@ var startSierpinski = function (canvas) {
     	if (event.keyCode === 189) { // Press "-" key for zoom out.
     		scaleFactor -= .1;
 		}
+		
 		if (event.keyCode === 187) { // Press "=" key for zoom in.
     		scaleFactor += .1;
         }
+        
+        if (event.keyCode === 37) { // Left arrow.
+    		viewerLocation.x += .1;
+    	} else if (event.keyCode === 39) { // Right arrow.
+    		viewerLocation.x -= .1; 
+    	}
+    	if (event.keyCode === 40) { // Up arrow.
+    		viewerLocation.y += .1;
+    	} else if (event.keyCode === 38) { // Down arrow.
+    		viewerLocation.y -= .1;
+    	}
         drawScene();
     };
 
