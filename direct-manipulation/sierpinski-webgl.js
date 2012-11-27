@@ -340,8 +340,14 @@ var startSierpinski = function (canvas) {
     // Set up event handler for zoom/scale and translate/pan.
     // All event handlers here are keyboard presses.
     window.onkeydown = function (event) {
-    
+        // JD: Overall looks good; the one thing that bugs me are the
+        //     hardcoded deltas of 0.1 and 0.3.  At the very least, these
+        //     should be in variables so that they are easy to adjust.
+        //     Maybe even better, perhaps the page itself can pass these
+        //     as parameters, so that they can be adjusted without diving
+        //     deep into the JavaScript.
     	if (event.keyCode === 189) { // Press "-" key for zoom out.
+            // JD: Ack, tabs are still around!!!
     		scaleFactor -= .1;
 		}
 		
@@ -352,13 +358,17 @@ var startSierpinski = function (canvas) {
         if (event.keyCode === 37) { // Left arrow. Press to translate image left.
     		viewerLocation.x += .3;
     	} else if (event.keyCode === 39) { // Right arrow. Press to translate image right.
-    		viewerLocation.x -= .3; 
+    		viewerLocation.x -= .3;
     	}
+        // JD: Is there a reason that this is a new if statement rather than
+        //     a continued else-if?  I mean, it's not like the different cases
+        //     can combine, right?
     	if (event.keyCode === 40) { // Up arrow. Press to translate image up.
     		viewerLocation.y += .3;
     	} else if (event.keyCode === 38) { // Down arrow. Press to translate image down.
     		viewerLocation.y -= .3;
     	}
+
     	// Draw the new scene with the changed values.
         drawScene();
     };
