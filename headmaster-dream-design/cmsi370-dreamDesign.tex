@@ -63,6 +63,12 @@ The design for my headmaster web-app is comprised of a login page, students page
 
 \subsection{Login Page}
 
-For a new user or default settings, there is a standard form login design.  There are two fields, one for username and the other for password.  Inside the web-app, under the user settings, the user can edit their login preferences.  The preference options include a facial recognition login (built-in camera or attached camera through USB port), 
+For a new user or default settings, there is a standard form login design.  There are two fields, one for username and the other for password.  Inside the web-app, under the user settings, the user can edit their login preferences.  The preference options include a facial recognition login (built-in camera or attached camera through USB port), a speech recognition \cite{sphinx} login, the standard form filling login, or a combination of the three. Personally, I would use a combination of speech and facial recognition login. It provides a secure, and interesting way to login.  The form filling login is always visible to each user signing in, just in case the speech or facial recognition fail to work for some reason.
+
+The background is default white, but can be changed in the user settings.  There will be a 'remember me' checkbox to save the username and background login image.  The facial recognition and speech login are available by default, but will not count as a valid login unless the user changes his/her preferences in the user preferences page.
+
+ % Generate the bibliography.
+\bibliography{cmsi370-dreamDesign}
+\bibliographystyle{unsrt}
 
 \end{document}
