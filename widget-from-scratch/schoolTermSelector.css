@@ -1,0 +1,40 @@
+.wrapper {
+    width: 800px;
+    margin: 20px;
+}
+
+.visible-area {
+    width: 800px;
+    height: 300px;
+    overflow: hidden;
+}
+
+.previous {
+    width: 100px;
+    float: left;
+    color: #fff;
+    height: 30px;
+    margin-top: 10px;
+    background: #f00;
+    line-height: 28px;
+    text-align: center;
+    text-decoration: none;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+}
+
+.next {
+    width: 100px;
+    float: right;
+    color: #fff;
+    height: 30px;
+    margin-top: 10px;
+    background: #f00;
+    line-height: 28px;
+    text-align: center;
+    text-decoration: none;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+}
