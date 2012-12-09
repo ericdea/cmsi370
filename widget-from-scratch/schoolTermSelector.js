@@ -1,8 +1,8 @@
 $(function() {
-    $( "input[type=submit], #previous" ).button().click(function( event ) {
-        event.preventDefault();
+    $( "#previous" ).button().click(function( event ) {
+        $(".school-term-selector").append("<p>Test1</p>");
     });
-    $( "input[type=submit], #next" ).button().click(function( event ) {
-        event.preventDefault();
+    $( "#next" ).button().click(function( event ) {
+        $(".school-term-selector").append("<p>Test2</p>");
     });
 });
