@@ -1,4 +1,6 @@
 $(function() {
+
+    //First button cycles chronologically backwards through the school terms.
     $( "#previous" ).button().click(function( event ) {
         if ( $(".school-term-selector").html() == "<p>Spring</p>" ) {
         
@@ -17,6 +19,8 @@ $(function() {
             $(".school-term-selector").html("<p>Spring</p>");
         }
     });
+    
+    //Second button cycles chronologically through the school terms.
     $( "#next" ).button().click(function( event ) {
         if ( $(".school-term-selector").html() == "<p>Summer</p>" ) {
         
