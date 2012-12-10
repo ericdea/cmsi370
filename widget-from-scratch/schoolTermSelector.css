@@ -9,6 +9,12 @@
     overflow: hidden;
 }
 
+/* JD: These two classes are somewhat repetitive; better
+       to consolidate the common ones into a different
+       class (that both elements share), then use the
+       distinct classes only for what makes them different
+       (which, as far as I can tell, is just the float
+       property). */
 .previous {
     width: 100px;
     float: left;

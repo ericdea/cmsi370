@@ -1,7 +1,12 @@
 $(function() {
 
     //First button cycles chronologically backwards through the school terms.
+
+    // JD: The selection logic here is correct but can be done with
+    //     less code (think data structure).
     $( "#previous" ).button().click(function( event ) {
+        // JD: Triple equals (===) is preferred in JavaScript, although
+        //     at least in this case it does not have a material effect.
         if ( $(".school-term-selector").html() == "<p>Spring</p>" ) {
         
             $(".school-term-selector").html("<p>Winter</p>");
